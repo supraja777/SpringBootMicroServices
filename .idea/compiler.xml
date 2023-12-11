@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="fraud" />
+        <module name="eureka" />
         <module name="customer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-server" target="17" />
       <module name="Spring-MicroServices" target="1.7" />
     </bytecodeTargetLevel>
   </component>

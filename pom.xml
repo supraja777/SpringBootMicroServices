@@ -8,6 +8,8 @@
   <modules>
     <module>customer</module>
       <module>fraud</module>
+    <module>eureka</module>
+    <module>eureka</module>
   </modules>
   <properties>
     <maven.compiler.source>21</maven.compiler.source>
@@ -25,6 +27,17 @@
         <version>2.5.7</version>
         <scope>import</scope>
         <type>pom</type>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>2020.0.3</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
       </dependency>
     </dependencies>
   </dependencyManagement>
